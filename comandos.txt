@@ -1,0 +1,8 @@
+git status
+git add
+git log
+git push
+git pull
+
+- Para borrar la caché
+git rm --cached NOMBRE_ARCHIVO.txt
