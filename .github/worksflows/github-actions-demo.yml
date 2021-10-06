@@ -1,2 +1,10 @@
-# Yet Snother Markup Lenguage
+# Yet Snother Markup Lenguage, TAB en la nueva línea
 name: Eemplo de de Acciones
+on: [push]
+jobs:
+  Primer-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Bienvenido a GITHUB Actions"
+      - run: echo "Ejecutando en ${{ runner.os }}"
+      - run: echo "Datos de rama: ${{ github.ref }} de ${{ github.repository }}"
